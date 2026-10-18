@@ -6,13 +6,13 @@ body{
     
 }
 
-
-p{
-    font-size: 25px;
-    font-style: italic;
-    color: blue;
+div{
+    width: 800px;
+    height: 600px;
+    font-size: 2em;
     background-image:url(image/IMG-20251225-WA0220.jpg) ;
-    background-size: 25%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-attachment: scroll;
 }
+

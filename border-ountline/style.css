@@ -1,0 +1,18 @@
+h1{
+border-style: solid;
+border-color: aqua;
+border-radius: 10px;
+
+
+outline-style:dotted;
+outline-color: blue;
+outline-offset: 5px;
+
+}
+
+p{
+border-style: groove;
+border-color: blue;
+
+
+}

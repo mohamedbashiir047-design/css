@@ -1,0 +1,31 @@
+h1{
+text-align: center;
+text-decoration: underline;
+text-shadow: 2px 10px 6px blue;
+text-transform: uppercase;
+text-indent: 15px;
+color: brown;
+}
+
+
+#try{
+color:red;
+text-transform: capitalize;
+text-shadow: 4px,5px,6px,red;
+text-size-adjust: inherit;
+}
+
+h2{
+    /* font */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    color: chocolate;
+}
+
+#bro{
+font-weight: bold;
+
+
+
+}

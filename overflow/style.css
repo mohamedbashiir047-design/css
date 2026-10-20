@@ -1,0 +1,42 @@
+.one{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255,0,0);
+    overflow: auto;
+    color: blue;
+    display: inline-block;
+    margin: ;10px
+}
+
+.two{
+    width: 400px;
+  
+     height: 200px;
+    background-color: rgb(o,0,255);
+    overflow: scroll;
+    color: red;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.three{
+     width: 400px;
+    height: 200px;
+    background-color: yellow;
+    overflow: hidden;
+    color:black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.four{
+     width: 400px;
+    height: 200px;
+    background-color:chartreuse;
+    overflow:visible;
+    color:black;
+    display: inline-block;
+    margin: 10px;
+}

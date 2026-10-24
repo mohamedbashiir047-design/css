@@ -5,16 +5,13 @@
     border-style: solid;
     border-radius: 20px;
     border-width: 12px;
-    display: block;
+    
 }
 .two{
     height: 200px;
     width: 200px;
     border-style: solid;
     border-color: brown;
+    
  
-}
-.try{
-    display: flex;
-    flex-direction: column;
 }

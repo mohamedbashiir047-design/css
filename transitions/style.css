@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:bisque;
+    color:black;
+    line-height: 1.6;
+    padding: 16px;
+    text-align: center;
+}
+header{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 6px 10px rgb(0 0 0 / 0.3);
+    padding: 20px;
+}
+.cointainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* transitions */
+.card{
+    width: 150px;
+    height: 100px;
+    background-color: gray;
+    box-shadow: 0px 5px 8px rgb(0 0 0 / 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadhow 0.3s;
+
+}
+.card:hover{
+    background-color: blue;
+    box-shadow: 3px 8px 14px rgb(0 0 0 / 0.4) ;
+}
+.bn{
+    padding: 10px 20px;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition:background-color 0.3s, box-shadhow 0.3s;
+ 
+}
+.bn:hover{
+    background-color: chocolate;
+    transform: rotate(60deg);
+}
+/* transformation */
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    transition: trasform 0.3s;
+}
+.square:hover{
+    transform:scale(1.2);
+}
+/* animation */
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 50%;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce{
+  0% , 100p%{
+    transform
+  }
+}
+.anim{
+    font-size: 24px;
+    animation: fade 2s infinite;
+}
+@keyframes fade{
+    0% , 100p%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+}

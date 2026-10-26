@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(blue, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.cointainer{
+    background-color: white;
+    width: 400px;
+    border-radius: 22px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 0.3);
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+
+}
+.cointainer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+}
+.cointainer h2{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+text-transform: capitalize;}
+.cointainer p{
+    text-transform: capitalize;
+}
+    
+
+.bro{
+    margin: 15px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.card{
+    text-align: center;
+
+}
+.card h1{
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 5px;
+    
+    
+}
+.card p{
+    font-size: 12px;
+    text-transform: capitalize;
+    
+}
+.bio{
+font-size: 14px;
+color:darkslategray;
+}
+.icon{
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.icon i{
+    color: white;
+    background-color: blue;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

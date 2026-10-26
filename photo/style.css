@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    line-height: 1.6rem;
+    color: #222;
+}
+header{
+    background-color: #222;
+    text-align: center; 
+    padding: 20px;
+    color: #ffffff;
+
+}
+header h1{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+header p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+main{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.photo{
+    margin-bottom: 45px;
+
+}
+.photo h2{
+    font-size: 1.4rem;
+    text-align: center;
+    color: red;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-transform: capitalize;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns:repeat(3 ,1fr) ;
+    gap: 16px;
+}
+.gallery-item{
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 5px 9px rgb(0 0 0 / 0.3);
+}
+.gallery-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}

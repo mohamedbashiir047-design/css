@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+            background-color: #00031a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            width: 100vw;
+
+        }
+        .cointainer{
+            position: relative;
+            z-index: 1;
+            background-color: blueviolet;
+            box-shadow: 0px 3px 5px rgb(0 0 0 / 0.2);
+            width: 350px;
+            text-align: center;
+            max-width: 400px;
+            height: auto;
+
+            
+        }
+        .cointainer h1{
+            color: blue;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .login{
+            margin-bottom: 10px;
+            text-align: left;
+            padding: 10px;
+            
+        }
+           .login label{
+            display: block;
+            font-size: 1.4rem;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+           }
+              .login input{
+                width: 100%;
+                padding: 20px;
+                font-size: 16px;
+                border-radius: 7px;
+                background-color: burlywood;
+                color: white;
+                outline: none;
+                border: none;
+              }
+              .btn{
+                width: 90%;
+                padding: 17px;
+                font-size: 16px;
+                text-transform: capitalize;
+                background-color: blue;
+                color: white;
+                border: none;
+                border-radius: 7px;
+                margin: 8px 8px;
+                overflow: hidden;
+                cursor: pointer;
+              }
+              .button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+              }
+              .button button{
+                
+                width: 48%;
+                padding: 13px;
+                border: none;
+                border-radius: 7px;
+                margin: 15px 10px;
+                cursor: pointer;
+
+              }
+              .button .google{
+                background-color: coral;
+              }
+              .button .facebook{
+                background-color: blue;
+              }
+              .background-circle{
+                position: absolute;
+                top: -100px;
+                left: -100px;
+                width: 300px;
+                height: 300px;
+                background-color: #0066ff;
+                border-radius: 50%;
+                filter: blur(150px);
+                z-index: 0;
+              }
+              .background-circle:nth-child(2){
+                top: auto;
+                bottom: -100px;
+                right: -100px;
+                left: auto;
+              })
+
+    </style>
+</head>
+<body>
+    <div class="background-circle"></div>
+    <div class="background-circle"></div>
+    <div class="cointainer">
+        <h1>login form</h1>
+        <div class="login">
+            <label for="">username</label>
+            <input type="text" placeholder="username">
+        </div>
+        <div class="login">
+            <label for="">email</label>
+            <input type="email" placeholder="email">
+        </div>
+        <div class="login">
+            <label for="">password</label>
+            <input type="password" placeholder="password">
+        </div>
+        <div>
+            <button type="submit" class="btn">login</button>
+        </div>
+        <div class="button">
+            <button class="google">google</button>
+            <button class="facebook">facebook</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
